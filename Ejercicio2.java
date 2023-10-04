@@ -14,6 +14,7 @@ public class Ejercicio2 {
 
         System.out.println("La temperatura en grados Fahrenheit es: "+ f + " y la temperatura en grados Kelvin es : "+k);
 
+        //Sé que pides al introducir una tecla que dé un resultado, pero no sé expresarlo (Me he jodido bastante por perder clases gracias al covid)
 
 
 

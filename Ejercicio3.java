@@ -10,6 +10,7 @@ public class Ejercicio3 {
         int PorcionesCadaAmigo;
         int PorcionesRestantes;
 
+        //Y no tengo ni idea de que más hacer.
     }
 
 }

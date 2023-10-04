@@ -7,16 +7,16 @@ public class Ejercicio1 {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Introduce el valor de a: ");
-        int a = entrada.nextInt();
+        double a = entrada.nextDouble();
         System.out.println("Introduce el valor de b: ");
-        int b = entrada.nextInt();
+        double b = entrada.nextDouble();
         System.out.println("Introduce el valor de c: ");
-        int c = entrada.nextInt();
+        double c = entrada.nextDouble();
 
         entrada.close();
 
-        int CuentaA = a*b+c*(3-2/2*b);
-        int CuentaB = (2+a*b/4)^c+2;
+        double CuentaA = a*b+c*((3-2)/(2*b));
+        double CuentaB = (2+a*b/4)^c+2); // Por lo que tengo entendido es que no me deja usar double para hacer potencias, no sé arreglarlo.
         // La cuenta c no la hago porque no sé poner la raiz cuadrada
 
         System.out.println("El valor de la primera cuenta es: "+ CuentaA + " el valor de la segunda cuenta es: "+ CuentaB);
